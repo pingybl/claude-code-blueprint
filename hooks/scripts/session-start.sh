@@ -60,7 +60,7 @@ if [ -d "$HOME/.claude/commands" ]; then
     fi
 fi
 
-context="$context | 💡 Run /context to load agent routing"
+context="$context | 💡 Skills and agents available"
 
 # Output JSON valide
 # Escape special characters for JSON

@@ -16,7 +16,7 @@ input=$(cat)
 
 # Extraire command et stdout depuis l'input
 command=$(echo "$input" | jq -r '.tool_input.command // empty' 2>/dev/null || echo "")
-stdout=$(echo "$input" | jq -r '.stdout // empty' 2>/dev/null || echo "")
+stdout=$(echo "$input" | jq -r '.tool_response // .stdout // empty' 2>/dev/null || echo "")
 
 if echo "$command" | grep -qE '^(npm|pnpm|yarn) (install|add|remove)'; then
     if echo "$stdout" | grep -qiE '(vulnerabilit|CVE-)'; then
