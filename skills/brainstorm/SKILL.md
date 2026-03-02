@@ -55,25 +55,11 @@ Select **2-4 relevant agents** from this mapping:
 
 | Domain | Agent Type |
 |--------|------------|
-| TypeScript/React/Next.js | typescript-expert, frontend-developer |
-| Python/FastAPI/Django | python-expert, python-development:python-pro |
-| React Native/Expo | react-native-expert |
 | AI/ML Research | research-synthesizer |
-| API/Backend | python-development:fastapi-pro, typescript-expert |
-| Architecture/Design | feature-dev:code-architect |
-| Content/Social Media | content-creator |
-| Medium/Long-form | medium-writer |
-| SEO | seo-expert |
-| UI/UX Design | ui-ux-designer |
-| Midjourney | midjourney-expert |
-| AI Image (Kling) | kling-image-expert |
-| AI Video (Kling) | kling-video-expert |
-| Claude Code/API/MCP | claude-expert |
+| Creative / Image Gen | midjourney-expert |
 | Finance/Crypto/Tax | finance-advisor |
-| Fitness/Nutrition | fitness-coach |
-| Music AI/Noelle Dea | ai-singer-agent |
-| Video/FFMPEG | social-media-clip-creator |
 | Prompt Engineering | prompt-engineer |
+| Architecture/Design | feature-dev:code-architect |
 | Code Review | feature-dev:code-reviewer |
 | General research | general-purpose |
 
