@@ -67,7 +67,7 @@ git clone https://github.com/YOUR_USERNAME/claude-code-blueprint.git
 cd claude-code-blueprint
 
 # 2. Copy to your Claude Code config
-cp claude.md ~/.claude/CLAUDE.md
+cp CLAUDE.md ~/.claude/CLAUDE.md
 cp -r rules/ ~/.claude/rules/
 cp -r skills/ ~/.claude/skills/
 cp -r agents/ ~/.claude/agents/
@@ -89,7 +89,7 @@ brew install jq  # or: apt install jq
 claude-code-blueprint/
 ├── README.md
 ├── LICENSE                          # Apache 2.0
-├── claude.md                        # The kernel (CLAUDE.md)
+├── CLAUDE.md                        # The kernel
 ├── settings.template.json           # Permission structure template
 │
 ├── rules/
