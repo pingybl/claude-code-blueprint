@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/cover.png" alt="Claude Code Blueprint" width="100%">
+</p>
+
 # Claude Code Blueprint
 
 A production-grade Claude Code configuration: skills, agents, hooks, rules, and permissions working as a system, not as isolated features.
