@@ -13,6 +13,9 @@ Thumbs.db
 memory/*
 !memory/.gitkeep
 
+# Claude Code (user-specific)
+.claude/settings.local.json
+
 # Environment
 .env
 .env.*
